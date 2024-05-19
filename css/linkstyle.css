@@ -1,0 +1,77 @@
+/*!*yoyo*!*/
+/*#dl-icon {*/
+/*    font-family: 'Material Symbols Outlined';*/
+/*    font-variation-settings: 'FILL' 0, 'wght' 245, 'GRAD' 0, 'opsz' 48;*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-size: 33px;*/
+/*    line-height: 1;*/
+/*    letter-spacing: normal;*/
+/*    text-transform: none;*/
+/*    display: inline-block;*/
+/*    white-space: nowrap;*/
+/*    word-wrap: normal;*/
+/*    direction: ltr;*/
+/*    -webkit-font-feature-settings: 'liga';*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    font-feature-settings: 'liga';*/
+/*    margin: 0 .05rem 0 0;*/
+/*}*/
+
+/*#dl-complete {*/
+/*    font-family: 'Material Symbols Outlined';*/
+/*    font-variation-settings: 'FILL' 0, 'wght' 250, 'GRAD' 0, 'opsz' 48;*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*    font-size: 32px;*/
+/*    line-height: 1;*/
+/*    letter-spacing: normal;*/
+/*    text-transform: none;*/
+/*    display: inline-block;*/
+/*    white-space: nowrap;*/
+/*    word-wrap: normal;*/
+/*    direction: ltr;*/
+/*    -webkit-font-feature-settings: 'liga';*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    font-feature-settings: 'liga';*/
+/*    margin: 0 .05rem 0 0;*/
+/*}*/
+
+/*.material-symbols-outlined.hidden {*/
+/*    display: none !important;*/
+/*}*/
+
+/*._1hwEKkB_38tIoal6fcdrt9 {*/
+/*    margin: .2rem auto;*/
+/*    gap: .2rem;*/
+/*    width: 100%;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*._3-miAEojrCvx_4FQ8x3P-s {*/
+/*    margin: unset;*/
+/*    width: unset;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: start;*/
+/*}*/
+
+/*.dl-button {*/
+/*    height: 100%;*/
+/*    border-radius: 2px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    cursor: pointer;*/
+/*    margin-right: 4px;*/
+/*    padding: 2px 8px 2px 3px;*/
+/*    text-transform: capitalize;*/
+/*    white-space: nowrap;*/
+/*    width: auto;*/
+/*    word-break: normal;*/
+/*    word-wrap: normal;*/
+/*}*/
+
+/*.dl-button:hover {*/
+/*    background-color: var(--newRedditTheme-navIconFaded10);*/
+/*}*/

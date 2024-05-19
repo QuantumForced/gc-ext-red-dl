@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Extension Options</title>
+    <link rel="stylesheet" href="options.css">
+    <style>
+        body {
+            padding: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+        }
+        h2 {
+            color: #333;
+            background-color: #fff;
+            padding: 15px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 24px;
+        }
+        .option-item {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 10px;
+            flex-direction: row;
+        }
+        .option-item label {
+            display: block;
+            color: #333;
+        }
+        .option-item input[type="text"],
+        .option-item input[type="number"],
+        .option-item select {
+            padding: 5px;
+            border: 1px solid #9b9b9b;
+            border-radius: 5px;
+            box-sizing: content-box;
+            width: 400px;
+        }
+        .option-item > * {
+            margin-right: 10px; /* Add some spacing between elements */
+        }
+        .option-item input::placeholder {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+<h2>Download Tester</h2>
+<div class="option-item">
+    <input id="url-input" type="text" placeholder="https://old.reddit.com/r/ukraine/comments/1cvagh7/the_fight_has_ended_watch_this_9_round_highlight/" />
+    <button id="run-reddit-url">Download Video</button>
+</div>
+<div class="option">
+    <p> Below is a video submission which you can copy for quick testing: </p>
+</div>
+<div class="option-item">
+    <p> https://old.reddit.com/r/ukraine/comments/1cvagh7/the_fight_has_ended_watch_this_9_round_highlight/ </p>
+</div>
+
+<script src="../lib/ffmpeg/umd/ffmpeg.js"></script>
+<script src="../lib/ffmpeg/util.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
